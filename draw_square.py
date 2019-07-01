@@ -16,9 +16,4 @@ def draw_art():
     for i in range(1,37):
 	draw_square(brad)
 	brad.right(10)
-    # angie = turtle.Turtle()
-    # angie.shape('arrow')
-    # angie.color('blue')
-    # angie.circle(100)
-
 draw_art()
