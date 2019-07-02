@@ -1,4 +1,5 @@
 import turtle
+shape = turtle.Turtle()
 for i in range(500):
-    forward(i)
-    left(91)
+    shape.forward(i)
+    shape.left(91)
