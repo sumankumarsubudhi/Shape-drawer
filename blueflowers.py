@@ -1,19 +1,20 @@
 import turtle
 import random
 
+flower = turtle.Turtle()
 for n in range(60):
-    penup()
+    flower.penup()
     goto(random.randint(-400, 400), random.randint(-400, 400))
-    pendown()
+    flower.pendown()
 
     red_amount   = random.randint( 0,  30) / 100.0
     blue_amount  = random.randint(50, 100) / 100.0
     green_amount = random.randint( 0,  30) / 100.0
-    pencolor((red_amount, green_amount, blue_amount))
+    flower.pencolor((red_amount, green_amount, blue_amount))
 
     circle_size = random.randint(10, 40)
-    pensize(random.randint(1, 5))
+    flower.pensize(random.randint(1, 5))
 
     for i in range(6):
-        circle(circle_size)
-        left(60)
+        flower.circle(circle_size)
+        flower.left(60)
