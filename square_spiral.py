@@ -1,4 +1,4 @@
-from turtle import *
-for i in range(500): # this "for" loop will repeat these functions 500 times
+import turtle
+for i in range(500):
     forward(i)
     left(91)
